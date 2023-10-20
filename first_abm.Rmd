@@ -23,6 +23,7 @@ mat <- function(df, nx, ny)  {
     as.matrix(with(xyN, sparseMatrix(i=x,j=y,x=N,dims=c(nx,ny))))
 }
 
+
 move<-function() sample(1:5, 1)
 ment<-data.frame(matrix(c(1,0,0,
                           2,1,0,
